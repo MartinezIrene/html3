@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("images/recycling bacground.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#wrapper{
+	width:500px;
+	margin:0 auto;
+	
+}
+h1, h2, h3{
+	font-family: decoy, serif;
+	font-weigth: 700;
+	font-style: normal;
+	text-align: center;
+	color: black;
+
+}
+p{
+	border: 6px solid black;
+	outline: #42AF50 solid 4px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	font-family:decoy, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	
+}
+
+pre{
+	text-align: center;
+	font-family:decoy, serif;
+	font-style:normal;
+}
+ul.a{
+	recycling-benifets: outside;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family:decoy, serif;
+	font-weight: 700;
+	font-style:normal;
+	padding: 10px;
+}
