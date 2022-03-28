@@ -1,59 +1,69 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	background: url("images/recycling bacground.webp");
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: gray;
 }
-#wrapper{
-	width:500px;
-	margin:0 auto;
-	
-}
-h1, h2, h3{
-	font-family: decoy, serif;
-	font-weigth: 700;
-	font-style: normal;
-	text-align: center;
-	color: black;
 
-}
-p{
-	border: 6px solid black;
-	outline: #42AF50 solid 4px;
-	margin: auto;
-	padding: 20px;
-	text-align: center;
-	font-family:decoy, serif;
-	font-weight: 700;
-	font-style: normal;
-}
-.topnav a{
-  float: left;
-  display: block;
-  color: #f2f2f2;
+.flex-container > div {
+  background-color: mediumpurple;
+  color: white;
+  margin: 20px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-	
+  line-height: 20px;
+  font-size: 20px;
 }
-
-pre{
-	text-align: center;
-	font-family:decoy, serif;
-	font-style:normal;
+.flex {
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	width:20%;
 }
-ul.a{
-	recycling-benifets: outside;
+.flex div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
 }
 
 footer{
+	width:"100%";
+	
+	height:100px;
+	background-color: grey;
+	text-align:center;
+	
+}
+
+#container{
+	width:1020px;
+	margin: 0 auto;
+}
+
+header{
+	width:100%;
+	height:100px;
+	background-color:burlywood;
+	text-align:center;
+}
+h1,h2,h3{
+	text-align:center;
+}
+.navbar{
+	display: flex;
+	align-items: stretch;
+	background-color: aqua;
+}
+
+.navbar > div {
+	background-color: grey;
+	color: white;
+	margin: 20px;
 	text-align: center;
-	clear: both;
-	font-family:decoy, serif;
-	font-weight: 700;
-	font-style:normal;
-	padding: 10px;
+	line-height: 20px;
+	font-size: 20px;
 }
