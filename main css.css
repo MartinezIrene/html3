@@ -1,20 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
-.flex-container {
-  display: flex;
-  align-items: stretch;
-  background-color: #452A19;
-}
-
-.flex-container > div {
-  background-color: #F5DEB3;
-  color: black;
-  margin: 20px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 20px;
-}
 .flex {
 	display: flex;
 	flex-direction: column;
@@ -24,19 +9,22 @@
 }
 .flex div {
   background-color: #F5DEB3;
-  width: 180px;
-  margin: 20px;
+  width: 150px;
+  margin: 15px;
   text-align: center;
   line-height: 20px;
   font-size: 15px;
 }
 
-footer{
-	width:"100%";
-	
+footer{	
+	position: absolute;
 	height:100px;
 	background-color: #8B4513;
 	text-align:center;
+	font-family: decoy , serif;
+	font-size: 20px;
+	top:900px;
+	width:100%;
 }
 
 #container{
@@ -51,49 +39,91 @@ header{
 	text-align:center;
 	font-size: 20px;
 }
-h2,h3{
+h2{
 	position: absolute;
-	top: 280px;
-	left: 650px;
+	top: 180px;
+	left: 570px;
+}
+h1,h2, h3, h4, h5, h6{
 	text-align: center;
 	font-family: decoy, serif;
 	font-size: 30px;
 }
-.navbar{
-	display: flex;
-	align-items: stretch;
-	background-color: #9F7A7A;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-
-.navbar > div {
-	
-	color: black;
-	margin: 10px;
-	text-align: center;
-	line-height: 10px;
-	font-size: 25px;
+li{
+	float: left;
+}
+li a{
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
 }
 #wrapper{
 	background-color: #FFF8DC;
+	width:"100%";
+	height:"100%"
 }
 p2{
-	position: absolute;
-	top: 345px;
-	left: 450px;
-	text-align: center;
-	font-size: 10px;
-	font-family: decoy, serif;
+	top: 260px;
+	left: 350px;
+	font-size: 20px;
+	width: "100%";
 }
 p3{
-	position: absolute;
-	top: 800px;
+	top: 700px;
 	left: 350px;
-	text-align: center;
-	font-family: decoy, serif;
 	font-size: 20px;
 	border-radius: 15px;
-	background: #927A58;
 	padding: 15px;
 }
-
-
+p2, p3, p4, p5{
+	position: absolute;
+	text-align: center;
+	font-family: decoy, serif;
+	background: #927A58;
+}
+p4, p5{
+	font-size: 25px;
+	left: 650px;
+	top: 180px;
+	border-radius: 15px;
+	padding: 15px;
+}
+pr{
+	left: 250px;
+	top: 560px;
+}
+pr2{
+	left: 250px;
+	top: 590px;
+}
+pr2, pr, pr3{
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	background: #927A58;
+	border-radius: 15px;
+	padding: 15px;
+}
+p7{
+	position: absolute;
+	left: 50px;
+	backround: #927A58;
+	border-radius: 15px;
+	padding: 15px;
+}
+pr3{
+	top:420px;
+	left: 245px;
+}
